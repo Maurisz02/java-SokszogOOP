@@ -87,6 +87,6 @@ public class Haromszog extends Sokszog {
     @Override
     public String toString() {
         //TODO: toString bef
-        return String.format("Háromszög:\na = %f\nb = %f\nc = %f\nK = %f\nT = %f", this.getA(),this.getB(),this.getC(),this.getKerulet(),this.getTerulet());
+        return String.format("Háromszög:\na = %-10.3f\nb = %-10.3f\nc = %-10.3f\n%s", this.getA(),this.getB(),this.getC(),super.toString());
     }
 }

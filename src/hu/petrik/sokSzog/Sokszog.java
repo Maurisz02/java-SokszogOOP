@@ -21,6 +21,6 @@ public abstract class Sokszog {
 
     @Override
     public String toString() {
-        return "Sokszog{}";
+        return String.format("K = %-15.3f\nT = %-15.3f", this.getKerulet(),this.getTerulet());
     }
 }
