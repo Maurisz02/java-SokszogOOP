@@ -1,6 +1,6 @@
 package hu.petrik.sokSzog;
 
-public class Sokszog {
+public abstract class Sokszog {
     private double a;
 
     Sokszog(double a){
@@ -13,5 +13,14 @@ public class Sokszog {
 
     public void setA(double a) {
         this.a = a;
+    }
+
+    public abstract double getKerulet();
+
+    public abstract double getTerulet();
+
+    @Override
+    public String toString() {
+        return "Sokszog{}";
     }
 }
