@@ -13,5 +13,16 @@ public class Main {
             double b = Math.random() *10 +5;
             System.out.println(new Teglalap(a,b)+"\n");
         }
+        System.out.println("");
+        Paralelogramma p = new Paralelogramma();
+
+        System.out.println(p);
+        System.out.println(p.getTerulet());
+
+        Sokszogek s = new Sokszogek(10);
+
+        System.out.println(s);
+
+        System.out.println(s.getOsszKerulet());
     }
 }
